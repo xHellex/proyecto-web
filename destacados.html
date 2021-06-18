@@ -34,13 +34,6 @@
 		</nav>
 	</header>
 
-	<div class="slider bxslider">
-		<div><img src="assets/img/desktop.jpg" alt="banner1"></div>
-		<div><img src="assets/img/desktop-1.jpg" alt="banner1"></div>
-		<div><img src="assets/img/desktop-2.jpg" alt="banner1"></div>
-
-	</div>
-
 	<main>
 
 		<section class="banners">
@@ -58,62 +51,34 @@
 
 		</section>
 
-
-
-		<section id="wow">
-			<h2>Ofertas WOW</h2>
-
-			<div class="ofertas">
-				<div class="productos">
-					<img src="/assets/img/1142582F12.webp" alt="">
-					<span class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-					<span class="internet">Internet $769.990</span>
-					<span class="antes">Normal $919.990</span>
+		<section class="container" id="contact">
+			<h2>Solicita nuestro catalogo de ofertas destacadas</h2>
+			<form id="form">
+				<div>
+					<input type="text" id="name" name="name" class="input" placeholder="Nombre *"> 
 				</div>
-				<div class="productos">
-					<img src="/assets/img/1148247F12.webp" alt="">
-					<span class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-					<span class="internet">Internet $769.990</span>
-					<span class="antes">Normal $919.990</span>
+	
+				<div>
+					<input type="text" id="email" name="email" class="input"  placeholder="Email *">
+					<input type="text" id="tel" name="tel" class="input"  placeholder="Teléfono *">
 				</div>
-				<div class="productos">
-					<img src="/assets/img/1148349F12.webp" alt="">
-					<span class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-					<span class="internet">Internet $769.990</span>
-					<span class="antes">Normal $919.990</span>
+				
+				<div> 
+					<textarea name="message" id="message" class="input"  placeholder="Mensaje *"></textarea>
 				</div>
-				<div class="productos">
-					<img src="/assets/img/1148540F12.webp" alt="">
-					<span class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-					<span class="internet">Internet $769.990</span>
-					<span class="antes">Normal $919.990</span>
-				</div>
-				<div class="productos">
-					<img src="/assets/img/1141461F12.webp" alt="">
-					<span class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-					<span class="internet">Internet $769.990</span>
-					<span class="antes">Normal $919.990</span>
-				</div>
-				<div class="productos">
-					<img src="/assets/img/1143659F12.webp" alt="">
-					<span class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-					<span class="internet">Internet $769.990</span>
-					<span class="antes">Normal $919.990</span>
-				</div>
-				<div class="productos">
-					<img src="/assets/img/1148649F12.webp" alt="">
-					<span class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-					<span class="internet">Internet $769.990</span>
-					<span class="antes">Normal $919.990</span>
-				</div>
-				<div class="productos">
-					<img src="/assets/img/1143015F12.webp" alt="">
-					<span class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-					<span class="internet">Internet $769.990</span>
-					<span class="antes">Normal $919.990</span>
+	
+				<button id="send" type="submit" class="button">Enviar</button>
+			</form>
+		</section>
+	
+		<div class="modal hidden">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button class="close-modal">Cerrar</button>
 				</div>
 			</div>
-		</section>
+		</div>	
+			
 	</main>
 
 	<footer>
@@ -130,6 +95,8 @@
 
 	</footer>
 
+	<!--function-->
+	<script src="/assets/js/function.js"></script>
 	<!-- jQuery -->
 	<script type="text/javascript" src="https://www.abcdin.cl/wcsstore/ABCDIN/javascript/jquery-1.8.0.min.js"></script>
 	<!--Script de bxslider -->
