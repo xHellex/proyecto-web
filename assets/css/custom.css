@@ -1,0 +1,158 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto';
+}
+
+
+/*Colores abcdin
+rojo #d62d36
+moragris #5e5663
+bg #f7f7f7
+*/
+
+
+
+
+.logo{
+    margin-top: 1rem;
+    width: 30%;
+}
+
+.topnav{
+    width: 100%;
+    padding: 5px;
+    background-color: #e0004d;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.navcorp, .telnav, a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom:0px;
+    margin-left: 2px;
+    
+}
+
+
+.navcorp{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navcard{
+    display: inline-flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav{
+    color: #2e353f;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul, il, .menu, a{
+    color: #2e353f;
+    margin:5px;
+}
+
+.menu:hover{
+    color: #e0004d;
+    transition-delay: 100ms;
+}
+
+.banners{
+    width: 100%;
+    display: inline-flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.minibanner{
+    margin: auto;
+}
+
+h2{
+    font-weight: lighter;
+    color: #2e353f;
+    font-size: 3em;
+    text-shadow: 1px 1px 0 rgb(0 0 0 / 10%);
+    padding: 1em;
+    border: solid 3px #e0004d;
+    border-radius: 30px;
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.ofertas{
+    margin-top: 2%;
+}
+
+.productos{
+    width: 20%;
+    display: inline-block;
+    border: 2px solid #2e353f;
+    border-radius: 30px;
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.productos:hover{
+    border: 2px solid #e0004d;
+}
+
+.descripcion{
+    font-weight: 100px;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+
+}
+
+.internet{
+    font-weight: bold;
+    color: #e0004d;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.antes{
+    text-decoration: line-through;
+    font-size: 1.1em;
+}
+
+footer{
+    margin-top: 1em;
+    max-height:300px ;
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 1em;
+    background-color: #e0004d;
+    color: #fff;
+    padding: 1em;
+}
